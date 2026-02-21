@@ -7,9 +7,11 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"No tests configured\""
   },
   "dependencies": {
+    "dotenv": "^17.3.1",
     "nodemailer": "^6.10.0"
   }
 }
