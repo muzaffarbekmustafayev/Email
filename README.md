@@ -1,25 +1,25 @@
 # Email Sender (Node.js + Nodemailer)
 
-Simple Node.js loyiha: Gmail orqali email yuboradi.
+A simple Node.js project that sends emails through Gmail.
 
 ## Requirements
 
-- Node.js 18+ (yoki 20+ tavsiya)
+- Node.js 18+ (Node.js 20+ recommended)
 - Gmail App Password
 
 ## Setup
 
-1. Dependency o'rnating:
+1. Install dependencies:
 ```bash
 npm install
 ```
 
-2. `.env.example` dan nusxa olib `.env` yarating:
+2. Copy `.env.example` and create a `.env` file:
 ```bash
 cp .env.example .env
 ```
 
-3. `.env` ichiga o'zingizning qiymatlarni kiriting:
+3. Add your own values in `.env`:
 ```env
 EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_app_password
@@ -35,5 +35,5 @@ npm start
 
 ## Security
 
-- `.env` fayli `.gitignore`ga qo'shilgan.
-- Maxfiy ma'lumotlarni (`EMAIL_PASS` va boshqalar) GitHub'ga joylamang.
+- `.env` is included in `.gitignore`.
+- Never commit sensitive credentials (`EMAIL_PASS`, etc.) to GitHub.
